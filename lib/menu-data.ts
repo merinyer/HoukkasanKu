@@ -466,7 +466,7 @@ export const menu: MenuCategory[] = [
       },
     ],
   },
-         {
+  {
     id: 'chuleta',
     label: 'Chuletas',
     title: 'Chuletas',
