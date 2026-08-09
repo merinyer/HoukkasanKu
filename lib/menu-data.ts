@@ -367,7 +367,6 @@ export const menu: MenuCategory[] = [
         price: '$15.00',
         description: 'Trozos de costilla fritos y sazonados con sal y pimienta china.',
       },
-      },
       {
         name: 'Costillas con Salsa Uva',
         price: '$17.00',
