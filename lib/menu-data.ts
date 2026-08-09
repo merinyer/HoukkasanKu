@@ -466,6 +466,60 @@ export const menu: MenuCategory[] = [
       },
     ],
   },
+         {
+    id: 'chuleta',
+    label: 'Chuletas',
+    title: 'Chuletas',
+    items: [
+      {
+        name: 'Chuleta en Salsa Agridulce',
+        price: '$13.00',
+        description: 'Chuleta crujiente bañada en salsa agridulce y surtido de vegetales frescos.',
+      },
+      {
+        name: 'Chuleta en Salsa de Ciruela',
+        price: '$14.00',
+        description: 'Cortes jugosos de chuleta dorados al wok y glaseados en salsa de ciruelas chinas.',
+      },
+      {
+        name: 'Chuletas con Sal y Pimienta',
+        price: '$11.00',
+        description: 'Trozos de chuleta fritos en doble técnica, salteados al seco con sal y pimienta.',
+      },
+      {
+        name: 'Chuleta en Salsa de Ostras',
+        price: '$13.00',
+        description: 'Lonjas de cerdo salteadas con vegetales crujientes y bañadas en rica salsa de ostión tradicional.',
+      },
+    ],
+  },
+            {
+    id: 'pato',
+    label: 'Pato',
+    title: 'Pato',
+    items: [
+      {
+        name: '½ Pato Asado Estilo Hong Kong',
+        price: '$24.00',
+        description: 'Medio pato marinado en especias orientales, asado lentamente con piel dorada y crujiente, y carne jugosa con salsa de asado concentrada.',
+      },
+      {
+        name: '½ Pato Guisado a las Cinco Especias',
+        price: '$24.00',
+        description: 'Tiernas piezas de medio pato estofadas a fuego lento en salsa agridulce y especiada.',
+      },
+      {
+        name: 'Pechuga de Pato en Salsa de la Casa',
+        price: '$20.00',
+        description: 'Jugosa pechuga de pato salteada al wok, servida sobre vegetales crujientes y glaseada en salsa secreta del chef.',
+      },
+      {
+        name: 'Pato Estofado con Jengibre en Cazuela Hirviente',
+        price: '$25.00',
+        description: 'Trozos de pato estofados a alta temperatura con jengibre fresco.',
+      },
+    ],
+  },
   {
     id: 'bebidas',
     label: 'Bebidas',
