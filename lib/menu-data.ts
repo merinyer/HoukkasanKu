@@ -18,39 +18,39 @@ export const menu: MenuCategory[] = [
     title: 'Entradas',
     items: [
       {
-        name: 'Lumpia de Pollo (2 piezas)',
-        price: '$3.50',
-        description: 'Rollos fritos crujientes rellenos de pollo y vegetales fritos.',
+        name: 'Ración de Lumpia (2 piezas)',
+        price: '$3.00',
+        description: 'Rollos fritos crujientes rellenos de pollo y vegetales.',
       },
       {
         name: 'Gyosa (5 piezas)',
-        price: '$5.00',
+        price: '$8.00',
         description:
-          'Empanadillas japonesas/chinas al vapor o doradas a la plancha, rellenas de carne y vegetales.',
+          'Empanadillas chinas al vapor y doradas a la plancha, rellenas de carne y vegetales.',
       },
       {
         name: 'Wanton al Vapor (10 piezas)',
-        price: '$6.00',
+        price: '$12.00',
         description: 'Bocadillos de masa fina cocidos al vapor, rellenos de carne o cerdo sazonado.',
       },
       {
         name: 'Wanton Frito (10 piezas)',
-        price: '$6.00',
+        price: '$12.00',
         description: 'Masa fina crujiente frita rellena de carne o cerdo sazonado.',
       },
       {
         name: 'Dimsum Surtido (15 piezas)',
-        price: '$12.00',
+        price: '$15.00',
         description: 'Variedad de bocados tradicionales al vapor y fritos con diversos rellenos.',
       },
       {
         name: 'Croquetas de Cangrejo (12 piezas)',
-        price: '$10.00',
+        price: '$16.00',
         description: 'Bocados empanizados y fritos rellenos de cangrejo sazonado.',
       },
       {
         name: 'Langostino en Salsa Blanca',
-        price: '$14.00',
+        price: '$16.00',
         description: 'Langostinos salteados en una suave y cremosa salsa de la casa.',
       },
     ],
@@ -86,6 +86,11 @@ export const menu: MenuCategory[] = [
         price: '$10.00',
         description: 'Servicio de arroz blanco servido con jugoso cerdo asado y vegetal de mostaza china.',
       },
+      {
+        name: 'Arroz Frito, Jamón, Pollo Agridulce',
+        price: '$4.00',
+        description: 'Porción individual de arroz frito con jamón y pollo agridulce.',
+      },
     ],
   },
   {
@@ -95,12 +100,12 @@ export const menu: MenuCategory[] = [
     items: [
       {
         name: 'Sopa de Pepino de Mar',
-        price: '$10.00',
+        price: '$18.00',
         description: 'Caldo especial con buche de pescado, pepino de mar, camarones y calamar.',
       },
       {
-        name: 'Sopa de Marisco',
-        price: '$10.00',
+        name: 'Sopa de Mariscos',
+        price: '$14.00',
         description: 'Sopa concentrada con camarones, pescado, mejillones y calamar.',
       },
       {
@@ -142,13 +147,8 @@ export const menu: MenuCategory[] = [
     items: [
       {
         name: 'Arroz Estilo Cantonés',
-        price: '$10.00',
-        description: 'Arroz frito clásico estilo cantonés.',
-      },
-      {
-        name: 'Arroz Frito 3 Ingredientes',
-        price: '$9.00',
-        description: 'Arroz salteado al wok con tiritas de carne, pollo y cerdo.',
+        price: '$12.00',
+        description: 'Arroz frito clásico estilo cantonés, salteado al wok con tiritas de carne, pollo y cerdo.',
       },
       {
         name: 'Arroz Dos Sabores',
@@ -157,38 +157,18 @@ export const menu: MenuCategory[] = [
       },
       {
         name: 'Arroz Especial',
-        price: '$9.00',
+        price: '$10.00',
         description: 'Arroz frito salteado con jamón, pollo y cerdo.',
       },
       {
-        name: 'Arroz Frito (Tiritas de Pollo, Camarones)',
-        price: '$10.00',
-        description: 'Arroz salteado con tiritas de pollo y camarones frescos.',
-      },
-      {
         name: 'Arroz Frito con Pollo',
-        price: '$4.00',
+        price: '$8.00',
         description: 'Clásico arroz salteado al wok con tiras de pollo.',
       },
       {
-        name: 'Arroz Frito con Pollo y Camarón',
-        price: '$10.00',
-        description: 'Combinación de pollo y camarones salteados con arroz frito.',
-      },
-      {
         name: 'Arroz Frito con Mariscos en Olla',
-        price: '$11.00',
+        price: '$12.00',
         description: 'Arroz salteado con camarón, calamar y mejillones, servido en olla.',
-      },
-      {
-        name: 'Arroz con Jamón',
-        price: '$3.00',
-        description: 'Arroz frito con dados de jamón y vegetales.',
-      },
-      {
-        name: 'Arroz Pollo y Jamón',
-        price: '$5.00',
-        description: 'Arroz frito con combinación de trozos de pollo y jamón.',
       },
     ],
   },
@@ -204,12 +184,12 @@ export const menu: MenuCategory[] = [
       },
       {
         name: 'Tallarín Salteado con Pollo y Camarones',
-        price: '$14.00',
+        price: '$15.00',
         description: 'Fideos salteados con combinación de pollo y camarones frescos.',
       },
       {
         name: 'Tallarín Salteado con Marisco Mix',
-        price: '$17.00',
+        price: '$18.00',
         description: 'Fideos salteados al wok con mixtura de mariscos seleccionados.',
       },
       {
@@ -218,8 +198,8 @@ export const menu: MenuCategory[] = [
         description: 'Fideos dorados y crujientes con trozos de pollo.',
       },
       {
-        name: 'Tallarín Frito con Pollo, Camarón en Salsa Ostra',
-        price: '$14.00',
+        name: 'Tallarín Frito con Pollo, Camarón en Salsa de Ostra',
+        price: '$15.00',
         description: 'Fideos crujientes salteados con pollo, camarón y bañados en salsa de ostras.',
       },
     ],
@@ -230,12 +210,12 @@ export const menu: MenuCategory[] = [
     title: 'Vegetales',
     items: [
       {
-        name: 'Vegetales Buda (Carne y Vegetal)',
-        price: '$14.00',
+        name: 'Vegetales Buda',
+        price: '$15.00',
         description: 'Plato tradicional con salteado de carne de res y vegetales variados.',
       },
       {
-        name: 'Mostaza con Salsa Ostra',
+        name: 'Mostaza con Salsa de Ostra',
         price: '$10.00',
         description: 'Hojas frescas de mostaza china salteadas en salsa de ostras.',
       },
@@ -245,8 +225,8 @@ export const menu: MenuCategory[] = [
         description: 'Tallos de flor de cebollín salteados a fuego alto con ajo picado.',
       },
       {
-        name: 'Vegetal Mix con Taufer / Tawfu',
-        price: '$11.00',
+        name: 'Vegetal Mix con Tawfu',
+        price: '$12.00',
         description: 'Surtido de vegetales salteados acompañados de tofu sazonado.',
       },
     ],
@@ -263,7 +243,7 @@ export const menu: MenuCategory[] = [
       },
       {
         name: 'Chop Suey 3 Ingredientes (Carne, Pollo y Cerdo)',
-        price: '$10.00',
+        price: '$14.00',
         description: 'Combinación de tres proteínas salteadas al wok con vegetales variados.',
       },
       {
@@ -273,12 +253,12 @@ export const menu: MenuCategory[] = [
       },
       {
         name: 'Chop Suey de Camarón',
-        price: '$12.00',
+        price: '$14.00',
         description: 'Abundantes camarones frescos salteados con vegetales crujientes.',
       },
       {
-        name: 'Chop Suey Especial (Jamón, Cerdo, Pollo)',
-        price: '$10.00',
+        name: 'Chop Suey Especial',
+        price: '$12.00',
         description: 'Salteado vegetal clásico con trozos de jamón, cerdo y pollo.',
       },
     ],
@@ -289,71 +269,71 @@ export const menu: MenuCategory[] = [
     title: 'Pollo',
     items: [
       {
-        name: 'Pollo con Salsa Agridulce',
+        name: 'Pollo Agridulce',
         price: '$8.00',
         description: 'Trozos de pollo crujientes bañados en la clásica salsa agridulce.',
       },
       {
-        name: "General Tso's Chicken",
-        price: '$13.70',
-        description: 'Pollo crujiente salteado en salsa agripicante ligeramente dulce estilo General Tso.',
+        name: 'Pollo En Salsa Miel',
+        price: '$14.00',
+        description: 'Trozos de pollo bañados en una espesa salsa de miel.',
       },
       {
-        name: 'Pollo Salteado con Vegetal',
-        price: '$13.80',
-        description: 'Trozos de pollo salteados al wok con surtido de vegetales frescos.',
+        name: 'Pollo Salteado',
+        price: '$15.00',
+        description: 'Trozos de pollo salteados al wok con champiñones y maíz tierno, surtido de vegetales frescos.',
       },
       {
         name: 'Pollo en Salsa de Ostra',
-        price: '$13.80',
+        price: '$14.00',
         description: 'Pollo en lonjas salteado en rica salsa de ostras estilo oriental.',
       },
       {
-        name: 'Pollo en Salsa Picante',
-        price: '$13.80',
-        description: 'Pollo salteado en salsa de pimientos y especias picantes.',
+        name: 'Pollo en Salsa Curry',
+        price: '$14.00',
+        description: 'Trozos de pollo bañado en una cremosa salsa de curry, salteado con vegetales y especias picantes.',
       },
       {
         name: 'Pollo en Salsa Teriyaki',
         price: '$13.00',
-        description: 'Trozos de pollo bañados en suave salsa dulce teriyaki.',
+        description: 'Trozos de pollo bañados en suave salsa teriyaki.',
       },
     ],
   },
   {
     id: 'carne',
-    label: 'Carne / Lomito',
-    title: 'Carne / Lomito',
+    label: 'Carne',
+    title: 'Carne',
     items: [
       {
-        name: 'Lomito en Salsa de Ostra',
+        name: 'Solomo en Salsa de Ostra',
         price: '$14.00',
-        description: 'Tiras suaves de lomito de res salteadas en salsa de ostras.',
+        description: 'Tiras suaves de solomo de res salteadas en salsa de ostras.',
       },
       {
-        name: 'Lomito en Salsa de Ciruela',
-        price: '$14.00',
-        description: 'Lomito de res salteado con salsa dulce de ciruela oriental.',
-      },
-      {
-        name: 'Lomito Salteado con Vegetal',
+        name: 'Carne Salteada con Brócoli',
         price: '$13.00',
-        description: 'Lomito de res salteado con surtido de vegetales crujientes.',
+        description: 'Carne de res salteada con brócoli y surtido con vegetales.',
       },
       {
-        name: 'Lomito en Salsa de Tausí',
-        price: '$13.00',
-        description: 'Lomito de res salteado en salsa de frijoles negros fermentados.',
+        name: 'Carne Salteada con Vegetal',
+        price: '$15.00',
+        description: 'Carne de res salteada con champiñones, maíz tierno y brócoli, surtido de vegetales crujientes y salsa cremosa.',
       },
       {
-        name: 'Lomito Salteado con Vegetal de Mostaza',
+        name: 'Pang Chen Choi (Ocho Tesoros)',
+        price: '$18.00',
+        description: 'Salteado de ocho proteínas sobre vegetales crujientes y salsas.',
+      },
+      {
+        name: 'Carne Salteada con Mostaza',
         price: '$14.00',
         description: 'Lomito salteado al wok con hojas de mostaza china fresca.',
       },
       {
-        name: 'Lomito en Salsa Picante',
+        name: 'Lomito en Salsa de Jengibre',
         price: '$14.00',
-        description: 'Tiras de lomito sazonadas y cocinadas en salsa picante especiada.',
+        description: 'Tiras de carne sazonadas y cocinadas en salsa de jengibre y cebollín.',
       },
     ],
   },
@@ -388,11 +368,6 @@ export const menu: MenuCategory[] = [
         description: 'Trozos de costilla fritos y sazonados con sal y pimienta china.',
       },
       {
-        name: 'Costillas con Salsa de Ciruela',
-        price: '$15.00',
-        description: 'Costillas de cerdo doradas cubiertas en salsa dulce de ciruela.',
-      },
-      {
         name: 'Costillas con Salsa Uva',
         price: '$17.00',
         description: 'Costillas de cerdo en salsa especial reducida de uva.',
@@ -415,12 +390,7 @@ export const menu: MenuCategory[] = [
         description: 'Camarones salteados con ajo dorado y finas hierbas.',
       },
       {
-        name: 'Camarones Rellenos al Vapor',
-        price: '$15.00',
-        description: 'Camarones seleccionados rellenos y cocidos al vapor.',
-      },
-      {
-        name: 'Camarones Salteados con Vegetal',
+        name: 'Camarones Buda',
         price: '$14.00',
         description: 'Camarones frescos salteados al wok con surtido de vegetales.',
       },
@@ -430,9 +400,9 @@ export const menu: MenuCategory[] = [
         description: 'Camarones jugosos cocinados en suave salsa de ostras.',
       },
       {
-        name: 'Camarones Salteados con Brócoli, Champiñones, Jojotico',
+        name: 'Camarones con salsa de Champiñones',
         price: '$15.00',
-        description: 'Camarones salteados con brócoli, champiñones frescos y mazorquitas de maíz.',
+        description: 'Camarones bañados en la tradicional salsa de champiñones.',
       },
     ],
   },
@@ -496,6 +466,60 @@ export const menu: MenuCategory[] = [
     ],
   },
   {
+    id: 'chuleta',
+    label: 'Chuletas',
+    title: 'Chuletas',
+    items: [
+      {
+        name: 'Chuleta en Salsa Agridulce',
+        price: '$13.00',
+        description: 'Chuleta crujiente bañada en salsa agridulce y surtido de vegetales frescos.',
+      },
+      {
+        name: 'Chuleta en Salsa de Ciruela',
+        price: '$14.00',
+        description: 'Cortes jugosos de chuleta dorados al wok y glaseados en salsa de ciruelas chinas.',
+      },
+      {
+        name: 'Chuletas con Sal y Pimienta',
+        price: '$11.00',
+        description: 'Trozos de chuleta fritos en doble técnica, salteados al seco con sal y pimienta.',
+      },
+      {
+        name: 'Chuleta en Salsa de Ostras',
+        price: '$13.00',
+        description: 'Lonjas de cerdo salteadas con vegetales crujientes y bañadas en rica salsa de ostión tradicional.',
+      },
+    ],
+  },
+  {
+    id: 'pato',
+    label: 'Pato',
+    title: 'Pato',
+    items: [
+      {
+        name: '½ Pato Asado Estilo Hong Kong',
+        price: '$24.00',
+        description: 'Medio pato marinado en especias orientales, asado lentamente con piel dorada y crujiente, y carne jugosa con salsa de asado concentrada.',
+      },
+      {
+        name: '½ Pato Guisado a las Cinco Especias',
+        price: '$24.00',
+        description: 'Tiernas piezas de medio pato estofadas a fuego lento en salsa agridulce y especiada.',
+      },
+      {
+        name: 'Pechuga de Pato en Salsa de la Casa',
+        price: '$20.00',
+        description: 'Jugosa pechuga de pato salteada al wok, servida sobre vegetales crujientes y glaseada en salsa secreta del chef.',
+      },
+      {
+        name: 'Pato Estofado con Jengibre en Cazuela Hirviente',
+        price: '$25.00',
+        description: 'Trozos de pato estofados a alta temperatura con jengibre fresco.',
+      },
+    ],
+  },
+  {
     id: 'bebidas',
     label: 'Bebidas',
     title: 'Bebidas',
@@ -521,13 +545,18 @@ export const menu: MenuCategory[] = [
         description: 'Refresco en presentación familiar de 2 litros.',
       },
       {
-        name: 'Agua Mineral',
+        name: 'Agua Mineral 360ml',
         price: '$1.20',
         description: 'Botella de agua mineral.',
       },
       {
-        name: 'Agua Saborizada',
+        name: 'Agua Mineral 600ml',
         price: '$2.00',
+        description: 'Botella de agua mineral.',
+      },
+      {
+        name: 'Agua Saborizada',
+        price: '$2.50',
         description: 'Botella de agua saborizada.',
       },
       {
