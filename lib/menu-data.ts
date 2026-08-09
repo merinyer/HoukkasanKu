@@ -86,7 +86,7 @@ export const menu: MenuCategory[] = [
         price: '$10.00',
         description: 'Servicio de arroz blanco servido con jugoso cerdo asado y vegetal de mostaza china.',
       },
-       {
+      {
         name: 'Arroz Frito, Jamón, Pollo Agridulce',
         price: '$4.00',
         description: 'Porción individual de arroz frito con jamón y pollo agridulce.',
@@ -274,7 +274,7 @@ export const menu: MenuCategory[] = [
         description: 'Trozos de pollo crujientes bañados en la clásica salsa agridulce.',
       },
       {
-        name: "Pollo En Salsa Miel",
+        name: 'Pollo En Salsa Miel',
         price: '$14.00',
         description: 'Trozos de pollo bañados en una espesa salsa de miel.',
       },
@@ -402,7 +402,7 @@ export const menu: MenuCategory[] = [
       {
         name: 'Camarones con salsa de Champiñones',
         price: '$15.00',
-        description: 'Camarones bañados en la tradicional salsa de champiñones',
+        description: 'Camarones bañados en la tradicional salsa de champiñones.',
       },
     ],
   },
@@ -492,7 +492,7 @@ export const menu: MenuCategory[] = [
       },
     ],
   },
-            {
+  {
     id: 'pato',
     label: 'Pato',
     title: 'Pato',
@@ -549,7 +549,7 @@ export const menu: MenuCategory[] = [
         price: '$1.20',
         description: 'Botella de agua mineral.',
       },
-       {
+      {
         name: 'Agua Mineral 600ml',
         price: '$2.00',
         description: 'Botella de agua mineral.',
