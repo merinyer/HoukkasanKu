@@ -547,7 +547,7 @@ export const menu: MenuCategory[] = [
       {
         name: 'Refresco de Lata',
         price: '$1.50',
-        description: 'Refresco en Lata de 355ml.',
+        description: 'Refresco en lata de 355ml.',
       },
       {
         name: 'Agua Mineral 360ml',
