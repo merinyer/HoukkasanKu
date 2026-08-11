@@ -545,6 +545,11 @@ export const menu: MenuCategory[] = [
         description: 'Refresco en presentación familiar de 2 litros.',
       },
       {
+        name: 'Refresco de Lata',
+        price: '$1.50',
+        description: 'Refresco en Lata de 355ml.',
+      },
+      {
         name: 'Agua Mineral 360ml',
         price: '$1.20',
         description: 'Botella de agua mineral.',
