@@ -5,26 +5,50 @@ import { Search } from 'lucide-react'
 import { menu } from '@/lib/menu-data'
 import { MenuItemCard } from '@/components/menu-item-card'
 
+// Función para remover acentos/tildes y diacríticos
+const normalize = (text: string = '') =>
+  text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+
 export function MenuView() {
   const [query, setQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState<string>('all')
 
-  const normalizedQuery = query.trim().toLowerCase()
+  const normalizedQuery = normalize(query.trim())
 
   const filteredMenu = useMemo(() => {
     return menu
-      .filter((category) => activeCategory === 'all' || category.id === activeCategory)
-      .map((category) => ({
-        ...category,
-        items: category.items.filter((item) => {
-          if (!normalizedQuery) return true
-          return (
-            item.name.toLowerCase().includes(normalizedQuery) ||
-            item.description.toLowerCase().includes(normalizedQuery) ||
-            category.label.toLowerCase().includes(normalizedQuery)
-          )
-        }),
-      }))
+      .map((category) => {
+        // Si el usuario tiene elegida una categoría específica y NO hay búsqueda activa, respetamos la categoría.
+        // Si el usuario ESCRIBE algo en el buscador, busca en TODO el menú para que no se oculte el resultado.
+        const matchesCategory =
+          activeCategory === 'all' ||
+          category.id === activeCategory ||
+          normalizedQuery.length > 0
+
+        if (!matchesCategory) {
+          return { ...category, items: [] }
+        }
+
+        return {
+          ...category,
+          items: category.items.filter((item) => {
+            if (!normalizedQuery) return true
+
+            const name = normalize(item.name)
+            const description = normalize(item.description)
+            const categoryLabel = normalize(category.label)
+
+            return (
+              name.includes(normalizedQuery) ||
+              description.includes(normalizedQuery) ||
+              categoryLabel.includes(normalizedQuery)
+            )
+          }),
+        }
+      })
       .filter((category) => category.items.length > 0)
   }, [activeCategory, normalizedQuery])
 
