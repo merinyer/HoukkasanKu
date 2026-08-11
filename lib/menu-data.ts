@@ -62,7 +62,7 @@ export const menu: MenuCategory[] = [
     items: [
       {
         name: 'Arroz Frito, Carne, Lumpia',
-        price: '$5.00',
+        price: '$8.00',
         description: 'Porción individual de arroz frito acompañado de carne salteada y lumpia frita.',
       },
       {
